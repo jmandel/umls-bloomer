@@ -1,4 +1,6 @@
 #!/usr/bin/ruby
+#encoding: utf-8
+
 #
 ##system 'gem install bloomer --user-install'
 #system 'gem install fhir_dstu2_models --user-install'
