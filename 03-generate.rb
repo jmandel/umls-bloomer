@@ -39,7 +39,7 @@ idx_source_code = 13
 idx_display = 14
 
 all_codes = []
-for infile in Dir["2018AA-full/2018AA/META/MRCONSO.RRF.*.gz"]
+for infile in Dir["scratch/2018AA-full/2018AA/META/MRCONSO.RRF.*.gz"]
   puts "test", infile
   gz = Zlib::GzipReader.new(open(infile))
   gz.each_line do |line|

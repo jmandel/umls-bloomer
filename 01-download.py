@@ -29,7 +29,7 @@ login_response = s.post(action_base + action_path, {
 login_response.raise_for_status()
 print(login_response.headers)
 umls_content_response = requests.get(login_response.headers['Location'], stream=True)
-with open('umls.zip', 'wb') as handle:
+with open('scratch/umls.zip', 'wb') as handle:
     kb_read = 0
     for block in umls_content_response.iter_content(1024):
         handle.write(block)
