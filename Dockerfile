@@ -10,3 +10,6 @@ RUN pip install requests && \
 ENV LANG=C.UTF-8
 
 COPY 01-download.py 02-extract.sh 03-generate.rb ./
+
+RUN useradd -r -u 1000 appuser
+USER appuser
