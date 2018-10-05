@@ -9,7 +9,7 @@ docker run --rm \
     -e UMLS_PASSWORD=mypassword \
     umls ./01-download.py
 
-01-download.py  02-subset.sh  03-create-sqlite.sh  04-generate.rb
+
 
 docker run --rm \
     -v $(pwd):/opt/node \
