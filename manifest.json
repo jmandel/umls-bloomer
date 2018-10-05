@@ -1,0 +1,104 @@
+{
+  "filters": [
+    {
+      "valueSetUrl": "http://hl7.org/fhir/ValueSet/daf-problem",
+      "probability": 0.001,
+      "file": "valueset-daf-problem.canonical"
+    },
+    {
+      "valueSetUrl": "http://fhir.org/guides/argonaut/ValueSet/substance-sct",
+      "probability": 0.001,
+      "file": "valueset-substance-sct"
+    },
+    {
+      "valueSetUrl": "http://fhir.org/guides/argonaut/ValueSet/medication-codes",
+      "probability": 0.001,
+      "file": "valueset-medication-codes"
+    },
+    {
+      "valueSetUrl": "http://hl7.org/fhir/ValueSet/observation-codes",
+      "probability": 0.001,
+      "file": "valueset-observation-codes"
+    },
+    {
+      "valueSetUrl": "http://fhir.org/guides/argonaut/ValueSet/observation-value-codes",
+      "probability": 0.001,
+      "file": "valueset-observation-value-codes"
+    },
+    {
+      "valueSetUrl": "http://fhir.org/guides/argonaut/ValueSet/procedure-type",
+      "probability": 0.001,
+      "file": "valueset-procedure-type"
+    },
+    {
+      "codeSystemUrl": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "probability": 0.001,
+      "file": "all-rxnorm"
+    },
+    {
+      "codeSystemUrl": "http://loinc.org",
+      "probability": 0.001,
+      "file": "all-lnc"
+    },
+    {
+      "codeSystemUrl": "http://snomed.info/sct",
+      "probability": 0.001,
+      "file": "all-snomedct_us"
+    },
+    {
+      "codeSystemUrl": "http://unitsofmeasure.org",
+      "probability": 0.001,
+      "file": "all-nci_ucum"
+    },
+    {
+      "codeSystemUrl": "http://www.ama-assn.org/go/cpt",
+      "probability": 0.001,
+      "file": "all-cpt"
+    },
+    {
+      "codeSystemUrl": "http://hl7.org/fhir/ndfrt",
+      "probability": 0.001,
+      "file": "all-ndfrt"
+    },
+    {
+      "codeSystemUrl": "http://hl7.org/fhir/sid/cvx",
+      "probability": 0.001,
+      "file": "all-cvx"
+    },
+    {
+      "codeSystemUrl": "http://hl7.org/fhir/sid/dsm5",
+      "probability": 0.001,
+      "file": "all-dsm-5"
+    },
+    {
+      "codeSystemUrl": "http://hl7.org/fhir/sid/icd-9-cm",
+      "probability": 0.001,
+      "file": "all-icd9cm"
+    },
+    {
+      "codeSystemUrl": "http://hl7.org/fhir/sid/icd-10",
+      "probability": 0.001,
+      "file": "all-icd10cm"
+    },
+    {
+      "codeSystemUrl": "http://hl7.org/fhir/sid/icf-nl",
+      "probability": 0.001,
+      "file": "all-icf"
+    },
+    {
+      "codeSystemUrl": "http://www.whocc.no/atc",
+      "probability": 0.001,
+      "file": "all-atc"
+    },
+    {
+      "codeSystemUrl": "http://nucc.org/provider-taxonomy",
+      "probability": 0.001,
+      "file": "all-nuccpt"
+    },
+    {
+      "codeSystemUrl": "http://www.omim.org",
+      "probability": 0.001,
+      "file": "all-omim"
+    }
+  ]
+}
