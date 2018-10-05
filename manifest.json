@@ -3,102 +3,102 @@
     {
       "valueSetUrl": "http://hl7.org/fhir/ValueSet/daf-problem",
       "probability": 0.001,
-      "file": "valueset-daf-problem.canonical"
+      "file": "valueset-daf-problem.canonical.msgpck"
     },
     {
       "valueSetUrl": "http://fhir.org/guides/argonaut/ValueSet/substance-sct",
       "probability": 0.001,
-      "file": "valueset-substance-sct"
+      "file": "valueset-substance-sct.msgpck"
     },
     {
       "valueSetUrl": "http://fhir.org/guides/argonaut/ValueSet/medication-codes",
       "probability": 0.001,
-      "file": "valueset-medication-codes"
+      "file": "valueset-medication-codes.msgpck"
     },
     {
       "valueSetUrl": "http://hl7.org/fhir/ValueSet/observation-codes",
       "probability": 0.001,
-      "file": "valueset-observation-codes"
+      "file": "valueset-observation-codes.msgpck"
     },
     {
       "valueSetUrl": "http://fhir.org/guides/argonaut/ValueSet/observation-value-codes",
       "probability": 0.001,
-      "file": "valueset-observation-value-codes"
+      "file": "valueset-observation-value-codes.msgpck"
     },
     {
       "valueSetUrl": "http://fhir.org/guides/argonaut/ValueSet/procedure-type",
       "probability": 0.001,
-      "file": "valueset-procedure-type"
+      "file": "valueset-procedure-type.msgpck"
     },
     {
-      "codeSystemUrl": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "valueSetUrl": "http://www.nlm.nih.gov/research/umls/rxnorm",
       "probability": 0.001,
-      "file": "all-rxnorm"
+      "file": "all-rxnorm.msgpck"
     },
     {
-      "codeSystemUrl": "http://loinc.org",
+      "valueSetUrl": "http://loinc.org",
       "probability": 0.001,
-      "file": "all-lnc"
+      "file": "all-lnc.msgpck"
     },
     {
-      "codeSystemUrl": "http://snomed.info/sct",
+      "valueSetUrl": "http://snomed.info/sct",
       "probability": 0.001,
-      "file": "all-snomedct_us"
+      "file": "all-snomedct_us.msgpck"
     },
     {
-      "codeSystemUrl": "http://unitsofmeasure.org",
+      "valueSetUrl": "http://unitsofmeasure.org",
       "probability": 0.001,
-      "file": "all-nci_ucum"
+      "file": "all-nci_ucum.msgpck"
     },
     {
-      "codeSystemUrl": "http://www.ama-assn.org/go/cpt",
+      "valueSetUrl": "http://www.ama-assn.org/go/cpt",
       "probability": 0.001,
-      "file": "all-cpt"
+      "file": "all-cpt.msgpck"
     },
     {
-      "codeSystemUrl": "http://hl7.org/fhir/ndfrt",
+      "valueSetUrl": "http://hl7.org/fhir/ndfrt",
       "probability": 0.001,
-      "file": "all-ndfrt"
+      "file": "all-ndfrt.msgpck"
     },
     {
-      "codeSystemUrl": "http://hl7.org/fhir/sid/cvx",
+      "valueSetUrl": "http://hl7.org/fhir/sid/cvx",
       "probability": 0.001,
-      "file": "all-cvx"
+      "file": "all-cvx.msgpck"
     },
     {
-      "codeSystemUrl": "http://hl7.org/fhir/sid/dsm5",
+      "valueSetUrl": "http://hl7.org/fhir/sid/dsm5",
       "probability": 0.001,
-      "file": "all-dsm-5"
+      "file": "all-dsm-5.msgpck"
     },
     {
-      "codeSystemUrl": "http://hl7.org/fhir/sid/icd-9-cm",
+      "valueSetUrl": "http://hl7.org/fhir/sid/icd-9-cm",
       "probability": 0.001,
-      "file": "all-icd9cm"
+      "file": "all-icd9cm.msgpck"
     },
     {
-      "codeSystemUrl": "http://hl7.org/fhir/sid/icd-10",
+      "valueSetUrl": "http://hl7.org/fhir/sid/icd-10",
       "probability": 0.001,
-      "file": "all-icd10cm"
+      "file": "all-icd10cm.msgpck"
     },
     {
-      "codeSystemUrl": "http://hl7.org/fhir/sid/icf-nl",
+      "valueSetUrl": "http://hl7.org/fhir/sid/icf-nl",
       "probability": 0.001,
-      "file": "all-icf"
+      "file": "all-icf.msgpck"
     },
     {
-      "codeSystemUrl": "http://www.whocc.no/atc",
+      "valueSetUrl": "http://www.whocc.no/atc",
       "probability": 0.001,
-      "file": "all-atc"
+      "file": "all-atc.msgpck"
     },
     {
-      "codeSystemUrl": "http://nucc.org/provider-taxonomy",
+      "valueSetUrl": "http://nucc.org/provider-taxonomy",
       "probability": 0.001,
-      "file": "all-nuccpt"
+      "file": "all-nuccpt.msgpck"
     },
     {
-      "codeSystemUrl": "http://www.omim.org",
+      "valueSetUrl": "http://www.omim.org",
       "probability": 0.001,
-      "file": "all-omim"
+      "file": "all-omim.msgpck"
     }
   ]
 }
