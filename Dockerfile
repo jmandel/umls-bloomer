@@ -1,6 +1,6 @@
 FROM beevelop/nodejs-python-ruby:latest
 
-RUN apt-get update && apt-get install -y zlib1g-dev libxml2 sqlite3-dev
+RUN apt-get update && apt-get install -y zlib1g-dev libxml2 libsqlite3-dev
 
 RUN pip install requests && \
     gem install fhir_dstu2_models && \
