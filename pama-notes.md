@@ -30,4 +30,4 @@ json.dump({
 
 Then
 
-    cat output/pama-reason-codes.json  | jq '.' > ~/work/sandbox/src/assets/pama-reason-codes.json
+    cat output/pama-reason-codes.json  | jq '.' --sort-keys '.expansion.contains |= sort_by(.code)' > ~/work/sandbox/src/assets/pama-reason-codes.json
